@@ -5,3 +5,5 @@ requests==2.5.0
 
 -r graphs.txt
 -r logging.txt
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+twisted>=22.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
