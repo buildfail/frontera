@@ -2,7 +2,7 @@ flaky
 pytest>=2.6.4
 PyMySQL>=0.6.3
 psycopg2>=2.5.4
-scrapy>=0.24
+scrapy>=2.11.1
 -r tldextract.txt
 SQLAlchemy>=1.0.0
 cachetools
