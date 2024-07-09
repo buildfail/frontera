@@ -5,3 +5,4 @@ requests==2.5.0
 
 -r graphs.txt
 -r logging.txt
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
