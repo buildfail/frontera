@@ -1,3 +1,4 @@
 pyparsing==1.5.7
 --allow-external pydot
 pydot==1.0.28
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
