@@ -2,7 +2,7 @@ flaky
 pytest>=2.6.4
 PyMySQL>=0.6.3
 psycopg2>=2.5.4
-scrapy>=0.24
+scrapy>=2.14.0
 -r tldextract.txt
 SQLAlchemy>=1.0.0
 cachetools
@@ -17,3 +17,4 @@ boto>=2.42.0
 redis>=2.10.5
 hiredis>=0.2
 cityhash>=0.1.7
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
